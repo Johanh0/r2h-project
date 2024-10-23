@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.mission-body {
+    background: url('../assets/mission-images/jellyfish.jpg');
+    background-size: cover;
+    font-size: 30px;
+    color: #0D3044;
+    padding: 400px;
+}
+
+
+.mission-body .mission-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(252, 252, 240, 0.8);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.mission-body h2 {
+    text-underline-offset: 28px;
+    text-decoration: underline ;
+    text-decoration-thickness: 2px;
+    padding-bottom: 30px;
+    color: #0D3044;
+}
+
+
+#mission-statement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    margin: 600px;
+    background-color: skyblue;
+}
+
+
