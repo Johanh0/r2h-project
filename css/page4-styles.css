@@ -40,7 +40,7 @@ body, html {
     background-color: rgba(255, 255, 255, 0.234);
     border-radius: 5%;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
  }
 
@@ -60,5 +60,4 @@ body, html {
     justify-content: center;
     align-items: center;
  }
-
 
