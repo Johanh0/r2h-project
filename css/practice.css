@@ -115,7 +115,6 @@ font-size: 30px;
 }
 
 .awareness-container{
-  background-color: rgba();
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -132,14 +131,5 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 1280px) {
-  .best-practices {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .hero-image {
-    height: 25%;
-    width: 50%;
-  }
-}
+
 
