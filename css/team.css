@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image {
+  background-image: url("../assets/team-images/teamcoral.jpg");
+  background-repeat: no-repeat; 
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  opacity: .9;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid red;
+}
+
+.team-card{
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.team-card img{
+  height: 500px;
+  width: 300px;
+}
+
+.team-card p{
+  display: grid;
+
+}
