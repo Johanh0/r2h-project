@@ -9,7 +9,7 @@ const allInputs = document.querySelectorAll(".form--input");
 const namePattern = /^[a-zA-Z\s'-]+$/;
 const emailPattern =
   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const phonePattern = /^\(\d{3}\) \d{3} - \d{3}$/;
+const phonePattern = /^\(\s\d{3}\s\)\s\d{3}\s-\s\d{4}$/;
 
 // Arrow function to handle the error on the inputs
 const addError = (input, label) => {
@@ -33,12 +33,11 @@ const handlePhoneFormat = (input) => {
     inputValue = inputValue.slice(0, 5) + " ) " + inputValue.slice(5);
   }
 
-  if (inputValue.length > 7) {
+  if (inputValue.length > 10) {
     inputValue = inputValue.slice(0, 11) + " - " + inputValue.slice(11);
   }
-
   input.value = inputValue;
-  input.value = input.value.slice(0, 17);
+  input.value = input.value.slice(0, 18);
 };
 
 // Iterating on the inputs to add the events listeners
