@@ -101,7 +101,8 @@ textarea:focus {
 }
 
 .form__btn .disabled {
-  cursor: not-allowed;
+  background-color: #20597a61;
+  pointer-events: none;
 }
 
 .form__inputs div input.error,
