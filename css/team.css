@@ -3,18 +3,25 @@
   padding: 0;
 }
 
-.hero-image {
-  background-image: url("../assets/team-images/teamcoral.jpg");
-  background-repeat: no-repeat; 
-  height: 50%;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  opacity: .9;
+.team {
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
 }
 
-.team-container {
+.team button {
+  background-color:#0d3044;
+  border-radius: 15px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100px;
+}
+
+  .team-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 20px;
