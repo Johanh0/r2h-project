@@ -65,14 +65,8 @@ body{
     border: 1px solid #e2f3fc;
     border-radius:30px;
     width:600px;
-    height:300px;
+    height:315px;
 }
-
-.leftturtles{
-/* display:flex;
-flex-direction: row-reverse; */
-}
-
 
 #orcas{
     display:flex;
@@ -123,9 +117,11 @@ flex-direction: row-reverse; */
 }
 
 .seaturtles{
+    display:flex;
     width:550px;
     height:275px;
     justify-content: center;
+    align-items:center;
     margin:10px;
     border-radius: 30px;
 }
