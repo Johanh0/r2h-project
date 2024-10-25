@@ -12,13 +12,13 @@ body{
     justify-content: center;
     align-items: center;
     /* background-image: url(../assets/ocean1.jpeg); */
-    background-color: rgba(255, 255, 255, 0.234);
+    background-color: #bfe6f3;
     padding:5%;
     margin-left: 28%;
     margin-top:2%;
     border-radius: 10px;
     width:45%;
-    color:black;
+    color:white;
     /* color:rgba(255, 255, 255, 0.771); */
     font-size:28px;
 }
@@ -53,6 +53,8 @@ body{
     align-items: center;
     background-color: #bfe6f3;
     border-radius: 30px;
+    margin:20px;
+    padding:20px;
 }
 
 
