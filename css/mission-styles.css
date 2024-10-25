@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/* *::-webkit-scrollbar {
+    display: none;
+  } */
+
+
+
+.mission-body {
+    background: url('../assets/mission-images/jellyfish.jpg');
+    background-size: cover;
+    font-size: 30px;
+    color: #0D3044;
+    padding: 200px;
+    margin: 10px;
+}
+
+
+.mission-body .mission-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(252, 252, 240, 0.759);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.mission-body h2 {
+    text-underline-offset: 28px;
+    text-decoration: underline ;
+    text-decoration-thickness: 2px;
+    padding-bottom: 30px;
+    color: #0D3044;
+}
+
+
+#mission-statement {
+    display: flex;
+
+}
+
+.mission-text {
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    margin: 10px;
+    background-color: #BFE6F3;
+    /*margin-right: 850px;*/
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    text-align: center;
+    max-width: 500px;
+}
+
+
+.dolphin-img {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    flex: 1;
+}
+
+
+.dolphin-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.mission-box {
+    display: flex;
+}
+
