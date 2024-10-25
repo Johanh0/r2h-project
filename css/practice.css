@@ -136,10 +136,10 @@ a {
   .best-practices {
     grid-template-columns: repeat(3, 1fr);
   }
-  
-  .hero-image {
-    height: 25%;
-    width: 50%;
-  }
 }
 
+@media (max-width: 992px) {
+  .best-practices {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
