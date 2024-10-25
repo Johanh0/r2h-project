@@ -34,8 +34,10 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  opacity: 1;
+  color: black;
+  background-color: rgba(252, 252, 240, 0.7);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 button {
@@ -44,6 +46,7 @@ button {
   height: 35px;
   color: white;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .introduction {
@@ -56,9 +59,15 @@ button {
   height: 350px;
   width: 350px;
   border-radius: 20px;
+  margin-left: 60px;
+}
+
+.intro-text h2{
+font-size: 30px;
 }
 
 .intro-text p {
+  font-size: 25px;
   margin-top: 30px;
 }
 
@@ -68,9 +77,11 @@ button {
   margin-top: 20px;
 }
 
+
 .practices-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 20px;
 }
 
 .practice-card img{
@@ -93,7 +104,42 @@ button {
 }
 
 .practice-card:hover {
-  opacity: .8;
-  background-color: rgb(63, 238, 241);
+  background-color: rgb(0, 71, 249);
+  color: white;
+}
+
+.awareness-content h2,p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awareness-container{
+  background-color: rgba();
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.awareness-container button{
+ display: block;
+ margin: auto;
+ color: white;
+ margin-top: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+  .best-practices {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .hero-image {
+    height: 25%;
+    width: 50%;
+  }
 }
 
