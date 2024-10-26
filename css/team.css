@@ -51,7 +51,19 @@
   display: grid;
 }
 
-@media (max-width: 796px){
+
+@media (max-width: 992px) {
+  .team button {
+    height: 40px;
+  }
+  
+  #team-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 796px) {
   body {
     margin: 0;
   }
@@ -61,7 +73,7 @@
     align-items: center;
   }
 
-  .team-container {
+  #team-container {
     grid-template-columns: 1fr;
   }
 
@@ -70,13 +82,4 @@
   }
 }
 
-@media (max-width: 992px) {
-  .team button {
-    height: 40px;
-  }
-  
-  .team-container {
-    grid-template-columns: 1fr 1fr;
 
-  }
-}
