@@ -3,18 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/mission-images/logo.jpg">
     <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      rel="stylesheet"/>
     <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/form.css" />
@@ -29,10 +24,10 @@
         <section class="nav__links">
           <ul>
             <li class="nav__links--items"><a href="../index.html">Home</a></li>
-            <li class="nav__links--items"><a href="">About Us</a></li>
-            <li class="nav__links--items"><a href="">Species Protection</a></li>
-            <li class="nav__links--items"><a href="">Best Practices</a></li>
-            <li class="nav__links--items"><a href="">Extended Resources</a></li>
+            <li class="nav__links--items"><a href="./team.html">About Us</a></li>
+            <li class="nav__links--items"><a href="./mission.html">Species Protection</a></li>
+            <li class="nav__links--items"><a href="./practices.html">Best Practices</a></li>
+            <li class="nav__links--items"><a href="./page4.html">Extended Resources</a></li>
           </ul>
         </section>
         <section class="nav__form">
@@ -43,11 +38,11 @@
 
           <div class="nav__menu--links">
             <ul>
-              <li class="nav__menu--items"><a href="">Home</a></li>
-              <li class="nav__menu--items"><a href="">About Us</a></li>
-              <li class="nav__menu--items"><a href="">Species</a></li>
-              <li class="nav__menu--items"><a href="">Practices</a></li>
-              <li class="nav__menu--items"><a href="">Resources</a></li>
+              <li class="nav__menu--items"><a href="../index.html">Home</a></li>
+              <li class="nav__menu--items"><a href="./team.html">About Us</a></li>
+              <li class="nav__menu--items"><a href="./mission.html">Species</a></li>
+              <li class="nav__menu--items"><a href="./practices.html">Practices</a></li>
+              <li class="nav__menu--items"><a href="./page4.html">Resources</a></li>
             </ul>
           </div>
         </section>
@@ -64,7 +59,7 @@
           </h1>
         </div>
         <div>
-          <form action="">
+          <form action="" id="form">
             <div class="form__inputs">
               <div>
                 <label for="name" >Your Name</label>
@@ -76,7 +71,7 @@
               </div>
               <div>
                 <label for="phone">Phone Number</label>
-                <input type="text" id="phone" class="form--input" required/>
+                <input type="tel" id="phone" class="form--input" required/>
               </div>
             </div>
             <div class="form__textarea">
@@ -84,7 +79,7 @@
               <textarea name="" required id="message" class="form--input"></textarea>
             </div>
             <div class="form__btn">
-              <input type="submit" value="Leave us a Message" class="disabled" />
+              <input type="submit" value="Leave us a Message" class="disabled" id="submit"/>
             </div>
           </form>
         </div>

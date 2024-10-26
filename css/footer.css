@@ -1,7 +1,8 @@
-html, body{
-    margin:0;
-    background-color:white;
-    box-sizing: border-box;
+html,
+body {
+  margin: 0;
+  background-color: white;
+  box-sizing: border-box;
 }
 
 
@@ -16,25 +17,25 @@ html, body{
     font-family: "poppins", sans-serif;
 } 
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-footer li a{
-    color:white;
-    text-decoration: none;
-    font-size: 18px;
+footer li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.copy{
-    width:100%;
-    display: flex;
-    justify-content: center;
+.copy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.big-container{
-    display:flex;
-    justify-content: space-between;
+.big-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .top-box, .bottom-box{
@@ -88,3 +89,4 @@ ul{
     display:flex;
     gap:20px;
 }
+
