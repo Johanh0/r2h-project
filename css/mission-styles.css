@@ -86,7 +86,6 @@
 
 @media only screen and (max-width: 600px) {
     #mission {
-        background-color: green;
         display: flex;
         flex-wrap: wrap;
     }
@@ -96,7 +95,27 @@
     }
 
     .mission-body {
-        display: flex;
+        padding: 0;
     }
 }
+
+
+.reason {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: #BFE6F3;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.reason h2 {
+    font-size: 30px;
+}
+
+
 
