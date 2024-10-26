@@ -29,19 +29,20 @@
     background-color: white;
     border-radius: 20px;
     opacity: 80%;
-    width: 35vw;
-    height: 18vh;
+    width: 40vw;
+    height: 24vh;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     position: absolute;
-    left: 32%;
+    left: 30%;
     top: 20%;
   }
 
   .sub-heading {
-    font-size: 15px;
+    font-size: 20px;
     position: relative;
+    margin-top: 25px;
   }
 
   aside {
@@ -60,11 +61,19 @@
 
   .Accomplishments-header {
     font-size: 25px;
+    margin-bottom: 5px;
   }
 
   .Accomplishments {
-    font-size: 20px;
-    margin: 20px;
+    font-size: 18px;
+    margin: 70px;
+  }
+
+  .Accomplishment-img {
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
   }
 
   #main-image {
@@ -120,7 +129,7 @@
   .Events-Header {
     position: relative;
     bottom: 45%;
-    left: 45%;
+    left: 36%;
   }
   .article-3 {
     display: flex;
@@ -138,9 +147,9 @@
 
   .Events {
     margin: 50px;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
-    right: 5%;
+    right: 30%;
     padding-right: 30px;
   }
 }
@@ -175,8 +184,8 @@
     background-color: white;
     border-radius: 20px;
     opacity: 80%;
-    width: 40vw;
-    height: 25vh;
+    width: 50vw;
+    height: 40vh;
     text-align: center;
     font-size: 30px;
     color: black;
@@ -211,6 +220,13 @@
   .Accomplishments {
     font-size: 15px;
     margin: 90px;
+  }
+
+  .Accomplishment-img {
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
   }
 
   #main-image {
@@ -290,7 +306,7 @@
 }
 
 /* Below is the responsive code for iphone 14 pro max  */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 430px) {
   * {
     margin: 0;
     padding: 0;
@@ -319,8 +335,8 @@
     background-color: white;
     border-radius: 20px;
     opacity: 80%;
-    width: 80vw;
-    height: 17vh;
+    width: 60vw;
+    height: 28vh;
     text-align: center;
     font-size: 30px;
     color: black;
@@ -353,8 +369,15 @@
   }
 
   .Accomplishments {
-    font-size: 13px;
-    margin: 50px;
+    font-size: 10px;
+    margin: 60px;
+  }
+
+  .Accomplishment-img {
+    border-radius: 20px;
+    width: 110px;
+    height: 100px;
+    margin-top: 50px;
   }
 
   #main-image {
@@ -383,7 +406,7 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 10px;
-    width: 68vw;
+    width: 39vw;
     height: 54vh;
     margin: 7px;
     padding: 10px;
@@ -401,7 +424,7 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 10px;
-    width: 68vw;
+    width: 39vw;
     height: 55vh;
     margin: 7px;
     text-align: center;
@@ -419,7 +442,7 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 10px;
-    width: 68vw;
+    width: 39vw;
     height: 55vh;
     margin: 7px;
     padding: 10px;
