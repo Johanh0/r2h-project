@@ -14,6 +14,7 @@
 
 .mission-body {
     background: url('../assets/mission-images/jellyfish.jpg');
+    width: 100%;
     background-size: cover;
     font-size: 30px;
     color: #0D3044;
@@ -80,5 +81,22 @@
 
 .mission-box {
     display: flex;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #mission {
+        background-color: green;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dolphin-img {
+        display: none;
+    }
+
+    .mission-body {
+        display: flex;
+    }
 }
 
