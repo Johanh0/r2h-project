@@ -1,96 +1,435 @@
 /* The box-sizing: border-box; property tells the browser to account for any border and padding in the values you specify for an element's width and height.  */
+/* Below is the responsive code for desktop */
+@media screen and (min-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  html {
+    font-family: "Poppins", serif;
+  }
+
+  .article-para {
+    font-size: large;
+    margin-top: 200px;
+  }
+
+  .hero-image {
+    background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100vw;
+    background-size: 100% 130%;
+  }
+
+  .hero-text {
+    border: white solid 3px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 80%;
+    width: 35vw;
+    height: 18vh;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 32%;
+    top: 20%;
+  }
+
+  .sub-heading {
+    font-size: 15px;
+    position: relative;
+  }
+
+  aside {
+    background-color: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    border: rgba(71, 125, 226, 0.611);
+    float: left;
+    width: 30vw;
+    height: 167vh;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .Accomplishments-header {
+    font-size: 25px;
+  }
+
+  .Accomplishments {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  #main-image {
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-radius: 1%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Partners-header {
+    position: relative;
+    bottom: 40%;
+    left: 30%;
+    font-size: 50px;
+  }
+
+  .article-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 54vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .article-programs {
+    margin: 20px;
+    font-size: 25px;
+    position: relative;
+    right: 73%;
+  }
+
+  .article-2 {
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 55vh;
+    margin: 7px;
+    text-align: center;
+  }
+
+  .Events-Header {
+    position: relative;
+    bottom: 45%;
+    left: 45%;
+  }
+  .article-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 55vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Events {
+    margin: 50px;
+    font-size: 18px;
+    position: relative;
+    right: 5%;
+    padding-right: 30px;
+  }
 }
 
-html {
-  font-family: "Poppins", serif;
+/* Below is the responsive code for tablet */
+@media screen and (min-width: 650px) and (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Poppins", serif;
+  }
+
+  .article-para {
+    font-size: large;
+    margin-top: 200px;
+  }
+
+  .hero-image {
+    background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100vw;
+    background-size: 100% 130%;
+  }
+
+  .hero-text {
+    border: white solid 3px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 80%;
+    width: 40vw;
+    height: 25vh;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 32%;
+    top: 20%;
+  }
+
+  .sub-heading {
+    font-size: 15px;
+    position: relative;
+  }
+
+  aside {
+    background-color: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    border: rgba(71, 125, 226, 0.611);
+    float: left;
+    width: 30vw;
+    height: 167vh;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .Accomplishments-header {
+    font-size: 25px;
+  }
+
+  .Accomplishments {
+    font-size: 15px;
+    margin: 90px;
+  }
+
+  #main-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Partners-header {
+    position: relative;
+    bottom: 40%;
+    left: 22%;
+    font-size: 50px;
+  }
+
+  .article-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 54vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .article-programs {
+    margin: 20px;
+    font-size: 25px;
+    position: relative;
+    right: 60%;
+  }
+
+  .article-2 {
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 55vh;
+    margin: 7px;
+    text-align: center;
+  }
+
+  .Events-Header {
+    position: relative;
+    bottom: 45%;
+    left: 45%;
+  }
+  .article-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 55vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Events {
+    margin: 25px;
+    font-size: 15px;
+    position: relative;
+    right: 5%;
+  }
 }
 
-body {
-  background-color: white;
-}
+/* Below is the responsive code for iphone 14 pro max  */
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.article-para {
-  font-size: large;
-  margin-top: 200px;
-}
+  html {
+    font-family: "Poppins", serif;
+  }
 
-.hero-image {
-  background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
-  background-repeat: no-repeat;
-  height: 40vh;
-  width: 100vw;
-  background-size: 100% 130%;
-}
+  .article-para {
+    font-size: large;
+    margin-top: 200px;
+  }
 
-.hero-text {
-  border: white solid 3px;
-  background-color: white;
-  border-radius: 20px;
-  opacity: 80%;
-  width: 10vw;
-  text-align: center;
-  font-size: 20px;
-  color: black;
-  position: absolute;
-  left: 40%;
-  top: 40%;
-}
+  .hero-image {
+    background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100vw;
+    background-size: 100% 130%;
+  }
 
-aside {
-  border-radius: 10px;
-  border: solid black 5px;
-  float: left;
-  width: 30vw;
-  height: 167vh;
-  margin: 5px;
-  padding: 5px;
-  font-size: 25px;
-  font-weight: 900;
-  text-align: center;
-}
+  .hero-text {
+    border: white solid 3px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 80%;
+    width: 80vw;
+    height: 17vh;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 10%;
+    top: 20%;
+  }
 
-img {
-  width: 100%;
-  height: 100%;
-  float: right;
-  border-radius: 1px;
-}
+  .sub-heading {
+    font-size: 15px;
+    position: relative;
+  }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
+  aside {
+    background-color: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    border: rgba(71, 125, 226, 0.611);
+    float: left;
+    width: 30vw;
+    height: 167vh;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
 
-.article-1 {
-  border-radius: 10px;
-  border: solid black 5px;
-  width: 68vw;
-  height: 54vh;
-  margin: 7px;
-  padding: 10px;
-  text-align: center;
-}
+  .Accomplishments-header {
+    font-size: 15px;
+  }
 
-.article-2 {
-  border-radius: 10px;
-  border: solid black 5px;
-  width: 68vw;
-  height: 55vh;
-  margin: 7px;
-  text-align: center;
-}
+  .Accomplishments {
+    font-size: 13px;
+    margin: 50px;
+  }
 
-.article-3 {
-  border-radius: 10px;
-  border: solid black 5px;
-  width: 68vw;
-  height: 55vh;
-  margin: 7px;
-  padding: 10px;
-  text-align: center;
+  #main-image {
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-radius: 1%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Partners-header {
+    position: relative;
+    bottom: 45%;
+    left: 17%;
+    font-size: 50px;
+  }
+
+  .article-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 54vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .article-programs {
+    margin: 20px;
+    font-size: 15px;
+    position: relative;
+    right: 73%;
+  }
+
+  .article-2 {
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 55vh;
+    margin: 7px;
+    text-align: center;
+  }
+
+  .Events-Header {
+    position: relative;
+    bottom: 45%;
+    left: 45%;
+  }
+  .article-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 55vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Events {
+    margin: 15px;
+    font-size: 15px;
+    position: relative;
+    right: 5%;
+  }
 }

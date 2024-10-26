@@ -103,6 +103,10 @@ font-size: 30px;
   cursor: pointer;
 }
 
+.practice-card h3 {
+  margin-bottom: 5px;
+}
+
 .practice-card:hover {
   background-color: rgb(0, 71, 249);
   color: white;
@@ -133,13 +137,79 @@ a {
 }
 
 @media (max-width: 1280px) {
-  .best-practices {
+  .practices-grid {
     grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .hero-image {
-    height: 25%;
-    width: 50%;
   }
 }
 
+@media (max-width: 992px) {
+  .practices-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .hero-text {
+    padding: 15px ;
+    font-size: 30px;
+  }
+  
+  .introduction {
+    flex-direction: column-reverse;
+  }
+
+  .introduction h2 {
+    text-align: center;
+    margin-top: 6px;
+  }
+
+  .intro-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-text p {
+    font-size: 26px;
+  }
+
+  .best-practices h2 {
+    font-size: 30px;
+  }
+
+  .best-practices h3 {
+    font-size: 26px;
+  }
+
+  .practice-card h3, p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 796px) {
+  .practices-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-text {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .introduction {
+    flex-direction: column-reverse;
+    padding: 30px 15px;
+  }
+  .introduction h2  {
+    text-align: center;
+  }
+
+  .intro-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-text p{
+    font-size: 18px;
+  }  
+
+  .awareness-content {
+    padding-left: 5px;
+  }
+}
