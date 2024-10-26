@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
 .hero-image {
   background-image: url("../assets/team-images/teamcoral.jpg");
   background-repeat: no-repeat; 
@@ -15,15 +16,42 @@
 }
 
 .team-container {
+=======
+.team {
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+}
+
+.team button {
+  background-color:#0d3044;
+  border-radius: 15px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100px;
+}
+ 
+  .team-container {
+>>>>>>> 2c3ec091b4ed793aa236edab370d0a846a369790
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 20px;
   margin-top: 20px;
+<<<<<<< HEAD
   border: 2px solid red;
 }
 
 .team-card{
   border: 2px solid black;
+=======
+  } 
+
+.team-card{
+>>>>>>> 2c3ec091b4ed793aa236edab370d0a846a369790
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background-color: white;
