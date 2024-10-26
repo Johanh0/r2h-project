@@ -5,7 +5,7 @@ html, body{
 }
 
 
-footer{
+/* footer{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,7 +14,7 @@ footer{
     margin: 0;
     padding:20px;
     font-family: "poppins", sans-serif;
-}
+} 
 
 ul{
     list-style: none;
@@ -43,7 +43,6 @@ footer li a{
     align-items:center;
     align-content: center;
     font-size:18px;
-    /* font-family: "poppins", sans-serif; */
 }
     
 .right-side{
@@ -51,13 +50,41 @@ footer li a{
     flex-direction: column;
     width:50px;
     gap:20px
+} */
+
+.footer{
+    display:flex;
+    justify-content: space-between;
 }
 
-p{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+.footer-together{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: pink;
+    color:white;
+    gap:35px;
 }
-h2{
-   
+
+ul{
+    list-style: none;
+}
+
+.full_form{
+    display:flex;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.icons{
+    display:flex;
+    flex-direction: column;
+}
+.full_form{
+    align-items: center;
+}
+
+.full_form .icons ul{
+    display:flex;
+    gap:20px;
 }
