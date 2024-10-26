@@ -62,9 +62,9 @@ footer li a {
     display:flex;
     flex-direction: row;
     justify-content:center;
-    background-color: pink;
+    background-color:#0d3044;
     color:white;
-    gap:35px;
+    gap:100px;
 }
 
 ul{
@@ -74,7 +74,8 @@ ul{
 .full_form{
     display:flex;
     flex-direction: column;
-    background-color: pink;
+    color:white;
+    background-color:#0d3044;
 }
 
 .icons{
@@ -87,6 +88,12 @@ ul{
 
 .full_form .icons ul{
     display:flex;
-    gap:20px;
+    gap:40px;
+    text-decoration: none;
 }
 
+footer li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}

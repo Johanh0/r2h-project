@@ -39,6 +39,31 @@ body{
     padding:20px;
 }
 
+@media only screen and (max-width:1280px){
+    .animals{
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    }
+
+    .animals #coral_reef{
+    height:auto;
+    width:100%;
+    }
+
+    .animals #seaturtles{
+        width:100%;
+    }
+
+    .animals #orcas{
+        width:100%;
+    }
+    .container{
+        height:fit-content;
+    }
+    
+}
+
 #coral_reef{
     display:flex;
     justify-content: center;
@@ -55,13 +80,13 @@ body{
     margin:10px;
     border-radius: 30px;
 }
-@media only screen and (max-width: 781px) {
+/* @media only screen and (max-width: 781px) {
     html #coral_reef {
-      background-color: red;
+      background-color: #bfe6f3;
       height:auto;
       width:100%;
     }
-  }
+  } */
 
 .text1{
     display:flex;
@@ -85,7 +110,7 @@ body{
 }
 .seaturtles{
     display:flex;
-    width:550px;
+    width:100%;
     height:275px;
     justify-content: center;
     align-items:center;
@@ -104,7 +129,7 @@ body{
 } 
 
 .killerwhales{
-    width:550px;
+    width:100%;
     height:275px;
     justify-content: center;
     margin:10px;
@@ -119,7 +144,7 @@ body{
     margin:10px;
     background-color: #bfe6f3;
     color:white;
-    height:500px;
+    height:fit-content;
 }
 
 .container{
@@ -132,7 +157,7 @@ body{
     margin:2%;
     padding:5%;
     width:500px;
-    height:350px;
+    height:fit-content;
     gap:50px;
     border-radius: 5px;
 }
