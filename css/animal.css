@@ -5,21 +5,23 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+@media only screen and (max-width: 781px) {
+    html body {
+      background-color: lightblue;
+    }
+  }
 .head{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-image: url(../assets/ocean1.jpeg); */
-    background-color: rgba(255, 255, 255, 0.234);
+    background-color: rgba(255, 255, 255, 0.6);
     padding:5%;
     margin-left: 28%;
     margin-top:2%;
-    border-radius: 10px;
+    border-radius: 5px;
     width:45%;
-    color:black;
-    /* color:rgba(255, 255, 255, 0.771); */
+    color:white;
     font-size:28px;
 }
 
@@ -46,6 +48,20 @@ body{
     height:300px;
     border-radius: 30px;
 }
+#coral_reef img{
+    width:100%;
+    height:auto;
+    justify-content: center;
+    margin:10px;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 781px) {
+    html #coral_reef {
+      background-color: red;
+      height:auto;
+      width:100%;
+    }
+  }
 
 .text1{
     display:flex;
@@ -53,6 +69,8 @@ body{
     align-items: center;
     background-color: #bfe6f3;
     border-radius: 30px;
+    margin:20px;
+    padding:20px;
 }
 
 
@@ -63,14 +81,17 @@ body{
     border: 1px solid #e2f3fc;
     border-radius:30px;
     width:600px;
-    height:300px;
+    height:315px;
 }
-
-.leftturtles{
-/* display:flex;
-flex-direction: row-reverse; */
+.seaturtles{
+    display:flex;
+    width:550px;
+    height:275px;
+    justify-content: center;
+    align-items:center;
+    margin:10px;
+    border-radius: 30px;
 }
-
 
 #orcas{
     display:flex;
@@ -81,6 +102,14 @@ flex-direction: row-reverse; */
     width:600px;
     height:300px;
 } 
+
+.killerwhales{
+    width:550px;
+    height:275px;
+    justify-content: center;
+    margin:10px;
+    border-radius: 30px;
+}
 
 #sharks{
     display:flex;
@@ -95,43 +124,21 @@ flex-direction: row-reverse; */
 
 .container{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     justify-items: center;
     align-content: center;
     background-color: #0d3044;
     margin:2%;
+    padding:5%;
     width:500px;
     height:350px;
     gap:50px;
+    border-radius: 5px;
 }
 
 .fact-box{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.killerwhales{
-    width:550px;
-    height:275px;
-    justify-content: center;
-    margin:10px;
-    border-radius: 30px;
-}
-
-.seaturtles{
-    width:550px;
-    height:275px;
-    justify-content: center;
-    margin:10px;
-    border-radius: 30px;
-}
-
-.coralreef{
-    width:550px;
-    height:275px;
-    justify-content: center;
-    margin:10px;
-    border-radius: 30px;
 }
