@@ -28,7 +28,7 @@ body, html {
 }
 
 .hero-text {
-  font-size: 30px;
+  font-size: 17px;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -153,7 +153,8 @@ a {
   }
   .hero-text {
     padding: 15px ;
-    font-size: 30px;
+    font-size: 22px;
+    width: 78%;
   }
   
   .introduction {
@@ -197,6 +198,7 @@ a {
     padding: 5px;
     font-size: 16px;
   }
+
   .introduction {
     flex-direction: column-reverse;
     padding: 30px 15px;
