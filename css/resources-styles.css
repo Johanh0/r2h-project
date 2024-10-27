@@ -144,8 +144,8 @@ body, html { /* page style  */
       font-size: small;
       }
    
-   .title { /* smaller size for title to fit containers */
-      font-size: small;
+   .title { /* large size for title for better readability */
+      font-size: large;
       padding: 5%;
    }
 
