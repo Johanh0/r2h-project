@@ -21,7 +21,7 @@
   width: 100px;
 }
  
-  .team-container {
+  #team-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 20px;
