@@ -112,7 +112,7 @@ font-size: 30px;
   color: white;
 }
 
-.awareness-content h2,p {
+.awareness-content > h2, p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +178,7 @@ a {
     font-size: 26px;
   }
 
-  .practice-card h3, p {
+  .practice-card h3 > p {
     font-size: 22px;
   }
 }
@@ -212,5 +212,9 @@ a {
 
   .awareness-content {
     padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
