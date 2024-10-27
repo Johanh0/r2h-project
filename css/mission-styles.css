@@ -14,6 +14,7 @@
 
 .mission-body {
     background: url('../assets/mission-images/jellyfish.jpg');
+    width: 100%;
     background-size: cover;
     font-size: 30px;
     color: #0D3044;
@@ -81,4 +82,40 @@
 .mission-box {
     display: flex;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #mission {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dolphin-img {
+        display: none;
+    }
+
+    .mission-body {
+        padding: 0;
+    }
+}
+
+
+.reason {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: #BFE6F3;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.reason h2 {
+    font-size: 30px;
+}
+
+
 
