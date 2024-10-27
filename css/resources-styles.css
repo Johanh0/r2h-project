@@ -23,8 +23,8 @@ body, html { /* page style  */
  #bigTitle { /* styling for hero text  */
     text-align: center;
     padding: 5%;
-    background-color: rgba(255, 255, 255, 0.544);
-    color:rgb(8, 78, 54);
+    background-color: rgba(255, 255, 255, 0.489);
+    color: black;
     border-radius: 50% 20% / 10% 40%;
     position: absolute;
     top: 20%;
@@ -43,13 +43,13 @@ body, html { /* page style  */
    grid-template-columns: 1fr 10% 1fr; /*3 columns of different sizes */
    grid-template-rows: repeat(5, auto); /* 5 rows */
    /* background-color: black; */
-   color: white;
+   color: black;
    width: 100%;
    height: auto;
  }
 
  .resource { /* styling for container behind each column text/grid items with text style  */
-    background-color: rgba(127, 255, 212, 0.288);
+    background-color:  rgba(255, 255, 255, 0.489);
     width: auto;
     height: auto;
     padding: 2%;
@@ -121,7 +121,7 @@ body, html { /* page style  */
  }
 
  a { /* changes color of span and link */
-   color: white
+   color: black;
  }
 
 
