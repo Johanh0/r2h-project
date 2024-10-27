@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", serif;
+}
+
+main {
+  color: #0d3044;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 100px 50px;
+  /* margin: 50px 0; */
+}
+
+.contact__title p {
+  margin-bottom: 20px;
+}
+
+.contact__title h1 {
+  font-size: 55px;
+  line-height: 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 100%;
+}
+
+.form__inputs {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.form__inputs div {
+  flex: 1;
+}
+
+.form__inputs div input {
+  padding-bottom: 20px;
+}
+
+.form__inputs div input,
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #cacaca;
+  outline: none;
+}
+
+.form__inputs div input:focus,
+textarea:focus {
+  border-bottom: 2px solid #0d3044;
+}
+
+.form__btn input {
+  padding: 20px 30px;
+  font-size: 20px;
+  background-color: #0d3044;
+  color: #e2f3fc;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  width: 100%;
+  height: fit-content;
+  background-image: url("../assets/form/contact-info-bg.png");
+}
+
+.info__text {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 90px 0px;
+  text-align: center;
+}
+
+.info__text p {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.info__text h2 {
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.form__btn .disabled {
+  background-color: #20597a61;
+  pointer-events: none;
+}
+
+.form__inputs div input.error,
+textarea.error {
+  border-bottom: 1px solid red;
+  color: red;
+}
+
+form div label.error--message {
+  color: red;
+}
+
+@media only screen and (max-width: 846px) {
+  .form__inputs {
+    flex-direction: column;
+  }
+}

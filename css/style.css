@@ -1,0 +1,469 @@
+/* The box-sizing: border-box; property tells the browser to account for any border and padding in the values you specify for an element's width and height.  */
+/* Below is the responsive code for desktop */
+@media screen and (min-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Poppins", serif;
+  }
+
+  .article-para {
+    font-size: large;
+    margin-top: 100%;
+  }
+
+  .hero-image {
+    background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    background-size: 100% 130%;
+  }
+
+  .hero-text {
+    border: white solid 3px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 80%;
+    width: 40vw;
+    height: 24vh;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+  }
+
+  .sub-heading {
+    font-size: 60%;
+    position: relative;
+    margin-top: 1%;
+  }
+
+  aside {
+    background-color: rgba(71, 125, 226, 0.611);
+    border-radius: 1%;
+    border: rgba(71, 125, 226, 0.611);
+    float: left;
+    width: 30vw;
+    height: 167vh;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .Accomplishments-header {
+    font-size: 200%;
+    margin-bottom: 5%;
+  }
+
+  .Accomplishments {
+    font-size: 18px;
+    margin: 70px;
+  }
+
+  .Accomplishment-img {
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  #main-image {
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-radius: 1%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Partners-header {
+    position: relative;
+    bottom: 40%;
+    left: 30%;
+    font-size: 50px;
+  }
+
+  .article-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 54vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .article-partners {
+    margin: 20px;
+    font-size: 25px;
+    position: relative;
+    right: 73%;
+  }
+
+  .article-2 {
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 55vh;
+    margin: 7px;
+    text-align: center;
+  }
+
+  .Events-Header {
+    position: relative;
+    bottom: 45%;
+    left: 36%;
+  }
+  .article-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 68vw;
+    height: 55vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Events {
+    margin: 50px;
+    font-size: 20px;
+    position: relative;
+    right: 30%;
+    padding-right: 30px;
+  }
+}
+
+/* Below is the responsive code for iPad Air */
+@media screen and (min-width: 650px) and (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Poppins", serif;
+  }
+
+  .article-para {
+    font-size: large;
+    margin-top: 200px;
+  }
+
+  .hero-image {
+    background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100vw;
+    background-size: 100% 130%;
+  }
+
+  .hero-text {
+    border: white solid 3px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 80%;
+    width: 50vw;
+    height: 25vh;
+    text-align: center;
+    font-size: 38px;
+    color: black;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+  }
+
+  .sub-heading {
+    font-size: 22px;
+    margin-top: 12px;
+    position: relative;
+  }
+
+  aside {
+    background-color: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    border: rgba(71, 125, 226, 0.611);
+    float: left;
+    width: 50vw;
+    height: 166.5vh;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .Accomplishments-header {
+    font-size: 42px;
+  }
+
+  .Accomplishments {
+    font-size: 30px;
+    margin: 60px;
+  }
+
+  .Accomplishment-img {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  #main-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Partners-header {
+    position: relative;
+    bottom: 45%;
+    left: 25%;
+    font-size: 50px;
+  }
+
+  .article-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 48vw;
+    height: 54vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .article-partners {
+    margin: 20px;
+    font-size: 25px;
+    position: relative;
+    right: 60%;
+  }
+
+  .article-2 {
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 48vw;
+    height: 55vh;
+    margin: 7px;
+    text-align: center;
+  }
+
+  .Events-Header {
+    position: relative;
+    bottom: 43%;
+    left: 35%;
+    font-size: 40px;
+  }
+  .article-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 48vw;
+    height: 55vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Events {
+    margin: 30px;
+    font-size: 20px;
+    position: relative;
+    right: 27%;
+    top: 35px;
+  }
+}
+
+/* Below is the responsive code for iphone 14 pro max  */
+@media screen and (max-width: 430px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Poppins", serif;
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .article-para {
+    font-size: large;
+    margin-top: 200px;
+  }
+
+  .hero-image {
+    background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100vw;
+    background-size: 100% 130%;
+  }
+
+  .hero-text {
+    border: white solid 3px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 80%;
+    width: 80vw;
+    height: 28vh;
+    text-align: center;
+    font-size: 34px;
+    color: black;
+    position: relative;
+    left: 10%;
+    top: 20%;
+  }
+
+  .sub-heading {
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+  }
+
+  aside {
+    background-color: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    border: rgba(71, 125, 226, 0.611);
+    float: left;
+    width: 45vw;
+    height: 132.2vh;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .Accomplishments-header {
+    font-size: 19px;
+  }
+
+  .Accomplishments {
+    font-size: 18px;
+    margin: 20px;
+    font-weight: 400;
+  }
+
+  .Accomplishment-img {
+    border-radius: 20px;
+    width: 110px;
+    height: 100px;
+    margin-top: 50px;
+  }
+
+  #main-image {
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-radius: 10%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Partners-header {
+    position: relative;
+    bottom: 48%;
+    left: 22%;
+    font-size: 25px;
+  }
+
+  .article-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 50vw;
+    height: 54vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .article-partners {
+    margin: 20px;
+    font-size: 20px;
+    position: relative;
+    right: 60%;
+  }
+
+  .article-2 {
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 30px;
+    width: 50vw;
+    height: 20vh;
+    margin: 7px;
+    text-align: center;
+  }
+
+  .Events-Header {
+    position: relative;
+    bottom: 45%;
+    left: 28%;
+  }
+  .article-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(71, 125, 226, 0.611);
+    border: rgba(71, 125, 226, 0.611);
+    border-radius: 10px;
+    width: 50vw;
+    height: 55vh;
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Events {
+    position: relative;
+    right: 40%;
+    top: 12px;
+    font-size: 13px;
+    margin: 20px;
+    font-weight: 400;
+  }
+}
