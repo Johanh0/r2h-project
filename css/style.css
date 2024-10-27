@@ -373,11 +373,11 @@
   }
 
   .Accomplishments-header {
-    font-size: 13px;
+    font-size: 19px;
   }
 
   .Accomplishments {
-    font-size: 13px;
+    font-size: 18px;
     margin: 20px;
     font-weight: 400;
   }
@@ -404,7 +404,7 @@
   .Partners-header {
     position: relative;
     bottom: 48%;
-    left: 13%;
+    left: 22%;
     font-size: 25px;
   }
 
@@ -426,7 +426,7 @@
     margin: 20px;
     font-size: 20px;
     position: relative;
-    right: 75%;
+    right: 60%;
   }
 
   .article-2 {
@@ -442,7 +442,7 @@
   .Events-Header {
     position: relative;
     bottom: 45%;
-    left: 22%;
+    left: 28%;
   }
   .article-3 {
     display: flex;
@@ -460,7 +460,7 @@
 
   .Events {
     position: relative;
-    right: 60%;
+    right: 40%;
     top: 12px;
     font-size: 13px;
     margin: 20px;
