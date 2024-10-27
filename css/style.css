@@ -109,7 +109,7 @@
     text-align: center;
   }
 
-  .article-programs {
+  .article-partners {
     margin: 20px;
     font-size: 25px;
     position: relative;
@@ -154,7 +154,7 @@
   }
 }
 
-/* Below is the responsive code for tablet */
+/* Below is the responsive code for iPad Air */
 @media screen and (min-width: 650px) and (max-width: 1023px) {
   * {
     margin: 0;
@@ -185,17 +185,18 @@
     border-radius: 20px;
     opacity: 80%;
     width: 50vw;
-    height: 40vh;
+    height: 25vh;
     text-align: center;
-    font-size: 30px;
+    font-size: 38px;
     color: black;
     position: absolute;
-    left: 32%;
+    left: 25%;
     top: 20%;
   }
 
   .sub-heading {
-    font-size: 15px;
+    font-size: 22px;
+    margin-top: 12px;
     position: relative;
   }
 
@@ -204,8 +205,8 @@
     border-radius: 10px;
     border: rgba(71, 125, 226, 0.611);
     float: left;
-    width: 30vw;
-    height: 167vh;
+    width: 50vw;
+    height: 166.5vh;
     margin: 5px;
     padding: 5px;
     font-size: 25px;
@@ -214,19 +215,19 @@
   }
 
   .Accomplishments-header {
-    font-size: 25px;
+    font-size: 42px;
   }
 
   .Accomplishments {
-    font-size: 15px;
-    margin: 90px;
+    font-size: 30px;
+    margin: 60px;
   }
 
   .Accomplishment-img {
     border-radius: 20px;
-    width: 400px;
-    height: 300px;
-    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
   }
 
   #main-image {
@@ -242,8 +243,8 @@
 
   .Partners-header {
     position: relative;
-    bottom: 40%;
-    left: 22%;
+    bottom: 45%;
+    left: 25%;
     font-size: 50px;
   }
 
@@ -254,14 +255,14 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 10px;
-    width: 68vw;
+    width: 48vw;
     height: 54vh;
     margin: 7px;
     padding: 10px;
     text-align: center;
   }
 
-  .article-programs {
+  .article-partners {
     margin: 20px;
     font-size: 25px;
     position: relative;
@@ -272,7 +273,7 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 10px;
-    width: 68vw;
+    width: 48vw;
     height: 55vh;
     margin: 7px;
     text-align: center;
@@ -280,8 +281,9 @@
 
   .Events-Header {
     position: relative;
-    bottom: 45%;
-    left: 45%;
+    bottom: 43%;
+    left: 35%;
+    font-size: 40px;
   }
   .article-3 {
     display: flex;
@@ -290,7 +292,7 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 10px;
-    width: 68vw;
+    width: 48vw;
     height: 55vh;
     margin: 7px;
     padding: 10px;
@@ -298,10 +300,11 @@
   }
 
   .Events {
-    margin: 25px;
-    font-size: 15px;
+    margin: 30px;
+    font-size: 20px;
     position: relative;
-    right: 5%;
+    right: 27%;
+    top: 35px;
   }
 }
 
@@ -326,7 +329,7 @@
     background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
     background-repeat: no-repeat;
     height: 40vh;
-    width: 100vw;
+    width: 73vw;
     background-size: 100% 130%;
   }
 
@@ -338,7 +341,7 @@
     width: 60vw;
     height: 28vh;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     color: black;
     position: relative;
     left: 10%;
@@ -346,8 +349,9 @@
   }
 
   .sub-heading {
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
+    top: 10px;
   }
 
   aside {
@@ -356,21 +360,21 @@
     border: rgba(71, 125, 226, 0.611);
     float: left;
     width: 30vw;
-    height: 167vh;
+    height: 132.2vh;
     margin: 5px;
     padding: 5px;
     font-size: 25px;
-    font-weight: 900;
     text-align: center;
   }
 
   .Accomplishments-header {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .Accomplishments {
-    font-size: 10px;
-    margin: 60px;
+    font-size: 13px;
+    margin: 20px;
+    font-weight: 400;
   }
 
   .Accomplishment-img {
@@ -384,7 +388,7 @@
     width: 100%;
     height: 100%;
     float: right;
-    border-radius: 1%;
+    border-radius: 10%;
   }
 
   main {
@@ -394,9 +398,9 @@
 
   .Partners-header {
     position: relative;
-    bottom: 45%;
-    left: 17%;
-    font-size: 50px;
+    bottom: 48%;
+    left: 13%;
+    font-size: 25px;
   }
 
   .article-1 {
@@ -413,19 +417,19 @@
     text-align: center;
   }
 
-  .article-programs {
+  .article-partners {
     margin: 20px;
-    font-size: 15px;
+    font-size: 20px;
     position: relative;
-    right: 73%;
+    right: 75%;
   }
 
   .article-2 {
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
-    border-radius: 10px;
+    border-radius: 30px;
     width: 39vw;
-    height: 55vh;
+    height: 20vh;
     margin: 7px;
     text-align: center;
   }
@@ -433,7 +437,7 @@
   .Events-Header {
     position: relative;
     bottom: 45%;
-    left: 45%;
+    left: 22%;
   }
   .article-3 {
     display: flex;
@@ -450,9 +454,11 @@
   }
 
   .Events {
-    margin: 15px;
-    font-size: 15px;
     position: relative;
-    right: 5%;
+    right: 60%;
+    top: 12px;
+    font-size: 13px;
+    margin: 20px;
+    font-weight: 400;
   }
 }
