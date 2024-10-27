@@ -112,7 +112,12 @@ font-size: 30px;
   color: white;
 }
 
-.awareness-content > h2, p {
+.awareness-content > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.awareness-content > p {
   display: flex;
   justify-content: center;
   align-items: center;
