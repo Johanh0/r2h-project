@@ -13,7 +13,7 @@
 
   .article-para {
     font-size: large;
-    margin-top: 200px;
+    margin-top: 100%;
   }
 
   .hero-image {
@@ -40,14 +40,14 @@
   }
 
   .sub-heading {
-    font-size: 20px;
+    font-size: 60%;
     position: relative;
-    margin-top: 25px;
+    margin-top: 1%;
   }
 
   aside {
     background-color: rgba(71, 125, 226, 0.611);
-    border-radius: 10px;
+    border-radius: 1%;
     border: rgba(71, 125, 226, 0.611);
     float: left;
     width: 30vw;
@@ -60,8 +60,8 @@
   }
 
   .Accomplishments-header {
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 200%;
+    margin-bottom: 5%;
   }
 
   .Accomplishments {
@@ -318,6 +318,11 @@
 
   html {
     font-family: "Poppins", serif;
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 
   .article-para {
@@ -329,7 +334,7 @@
     background-image: url(../images/coral\ ecosystems\ reeffish.jpg);
     background-repeat: no-repeat;
     height: 40vh;
-    width: 73vw;
+    width: 100vw;
     background-size: 100% 130%;
   }
 
@@ -338,10 +343,10 @@
     background-color: white;
     border-radius: 20px;
     opacity: 80%;
-    width: 60vw;
+    width: 80vw;
     height: 28vh;
     text-align: center;
-    font-size: 28px;
+    font-size: 34px;
     color: black;
     position: relative;
     left: 10%;
@@ -349,9 +354,9 @@
   }
 
   .sub-heading {
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
-    top: 10px;
+    top: 8px;
   }
 
   aside {
@@ -359,7 +364,7 @@
     border-radius: 10px;
     border: rgba(71, 125, 226, 0.611);
     float: left;
-    width: 30vw;
+    width: 45vw;
     height: 132.2vh;
     margin: 5px;
     padding: 5px;
@@ -410,7 +415,7 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 10px;
-    width: 39vw;
+    width: 50vw;
     height: 54vh;
     margin: 7px;
     padding: 10px;
@@ -428,7 +433,7 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 30px;
-    width: 39vw;
+    width: 50vw;
     height: 20vh;
     margin: 7px;
     text-align: center;
@@ -446,7 +451,7 @@
     background-color: rgba(71, 125, 226, 0.611);
     border: rgba(71, 125, 226, 0.611);
     border-radius: 10px;
-    width: 39vw;
+    width: 50vw;
     height: 55vh;
     margin: 7px;
     padding: 10px;
