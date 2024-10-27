@@ -9,7 +9,7 @@ html {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   color: #0d3044;
   background-color: #e2f3fc;
@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px 50px;
 }
